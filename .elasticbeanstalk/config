@@ -1,11 +1,11 @@
 [global]
-ApplicationName=uBus_Ghost
+ApplicationName=uBusGhost
 AwsCredentialFile=/Users/jhiller/.elasticbeanstalk/aws_credential_file
 DevToolsEndpoint=git.elasticbeanstalk.us-west-1.amazonaws.com
-EnvironmentName=uBusGhost_Env
+EnvironmentName=uBusGhostEnv
 EnvironmentType=SingleInstance
 InstanceProfileName=aws-elasticbeanstalk-ec2-role
-OptionSettingFile=/Users/jhiller/Desktop/uBus_Me_Site/.elasticbeanstalk/optionsettings.uBusGhost_Env
+OptionSettingFile=/Users/jhiller/Desktop/uBus_Me_Site/.elasticbeanstalk/optionsettings.uBusGhostEnv
 RdsEnabled=No
 Region=us-west-1
 ServiceEndpoint=https://elasticbeanstalk.us-west-1.amazonaws.com
