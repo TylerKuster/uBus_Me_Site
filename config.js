@@ -34,7 +34,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: 'http://ubusghostenv-6tngarpf3u.elasticbeanstalk.com/',
+            host: 'ec2-54-200-82-15.us-west-2.compute.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
@@ -55,7 +55,7 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: 'http://ubusghostenv-6tngarpf3u.elasticbeanstalk.com/,
+            host: 'ec2-54-200-82-15.us-west-2.compute.amazonaws.com',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: '80'
         }
@@ -67,7 +67,7 @@ config = {
     // Used when developing Ghost to run tests and check the health of Ghost
     // Uses a different port number
     testing: {
-        url: 'http://127.0.0.1:2369',
+        url: 'ec2-54-200-82-15.us-west-2.compute.amazonaws.com:2369',
         database: {
             client: 'sqlite3',
             connection: {
@@ -75,8 +75,8 @@ config = {
             }
         },
         server: {
-            host: '127.0.0.1',
-            port: '2369'
+            host: 'ec2-54-200-82-15.us-west-2.compute.amazonaws.com',
+            port: '80'
         }
     },
 
