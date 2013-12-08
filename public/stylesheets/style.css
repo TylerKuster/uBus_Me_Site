@@ -49,3 +49,7 @@ a {
   font-size: 1.5em;
   font-weight: 200;
 }
+.hero .rightSide a img {
+  max-width: 250px;
+  padding: 2em 0;
+}
