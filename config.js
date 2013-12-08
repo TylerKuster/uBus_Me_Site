@@ -34,9 +34,9 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: 'http://ubusghostenv-6tngarpf3u.elasticbeanstalk.com/',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: '80'
         }
     },
 
@@ -57,7 +57,7 @@ config = {
             // Host to be passed to node's `net.Server#listen()`
             host: 'http://ubusghostenv-6tngarpf3u.elasticbeanstalk.com/,
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
-            port: '2368'
+            port: '80'
         }
     },
 
