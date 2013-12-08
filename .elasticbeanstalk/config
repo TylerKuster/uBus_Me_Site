@@ -1,0 +1,13 @@
+[global]
+ApplicationName=Default-Environment
+AwsCredentialFile=/Users/jhiller/.elasticbeanstalk/aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-1.amazonaws.com
+EnvironmentName=Default-Environment-hsqnyntmd7
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=/Users/jhiller/Desktop/uBus_Me_Site/.elasticbeanstalk/optionsettings.Default-Environment-hsqnyntmd7
+RdsEnabled=No
+Region=us-west-1
+ServiceEndpoint=https://elasticbeanstalk.us-west-1.amazonaws.com
+SolutionStack=32bit Amazon Linux 2013.09 running Node.js
+
